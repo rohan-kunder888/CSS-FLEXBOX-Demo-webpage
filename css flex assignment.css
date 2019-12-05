@@ -1,0 +1,145 @@
+body{
+	margin: 0px 60px;
+	padding: 0px;
+	background-color: lightgray;
+}
+figure{
+	margin: 0px;
+	background-color: white;
+}
+li {
+	list-style-type: none;
+}
+
+.anchor{
+	color: white;
+}
+
+.header{
+	display: flex;
+	flex-direction:column;
+}
+.headernav {
+	background-color: black;
+	color: white;
+}
+.headerlist{
+	display:flex;
+	justify-content: flex-start;
+	margin: 5px 0px 5px 0px;
+}
+
+.listitem{
+	margin-top: 20px;
+	padding:5px 10px 0px 20px;
+	width: 50px;
+} 
+.listitem1{
+	padding:5px 10px 0px 20px;
+	width: 50px;
+} 
+.facebooklogo{
+	flex: 2;
+	margin-left: 700px;
+}
+.imageslider{
+	height: 400px;
+	width: 100%;
+	align-items: center;
+    justify-content: center;
+    display: flex;
+	background-color: rgb(145, 216, 52,0.8);
+}
+
+.middlesection{
+	display:flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.middlechild{
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+}
+p{
+	margin: 20px;
+}
+
+.gallerydiv{
+	display: flex;
+	flex-direction: column;	
+	align-items: center;
+}
+.gallery{
+	width: 100%;
+	display: flex;
+	height: 100%;
+}
+.galleryimages{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 180px;
+	width: 100%;
+	font-size: 20px;
+}
+
+.a{
+	background-color: rgb(237, 118, 107);
+}
+.b{
+	background-color: rgb(214, 212, 90);
+}
+.c{
+	background-color: rgb(91, 161, 212);
+}
+.d{
+	background-color: rgb(138, 224, 137);
+}
+
+
+a{
+	text-decoration: none;
+}
+.content-container__contenInfo{
+	display: flex;
+	background-color: white;
+	margin-top: 20px;
+}
+.sidenavigationdiv{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+}
+.content-container__rightSection{
+	height: 65%;
+	background-color: lightgrey;
+}
+.sidenavlist{
+	display: flex;
+    flex-direction: column;
+}
+
+.sidenavlist__items{
+	padding: 10px 0;
+}
+.content-container__leftSection{
+	padding-left: 30px;
+	width: 70%;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	background-color: white;
+}
+
+.footer_p1{
+	color: rgb(145, 216, 52); 
+}
+
+
